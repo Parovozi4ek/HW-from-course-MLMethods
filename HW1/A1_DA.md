@@ -29,7 +29,7 @@ print("задача № 2 - вариант: ", variant % 4 + 1)
 В качестве индикатора далее необходимо использовать контроль над коррупцией (Control of Corruption) и его показатели `pctrank` и `estimate`
 
 - Набор данных:
-    - [WGI](data/task_1/wgidataset.xlsx)([актуальная версия](https://www.worldbank.org/content/dam/sites/govindicators/doc/wgidataset_excel.zip))
+    - [WGI](data/task_1/wgidataset.xlsx) ([актуальная версия](https://www.worldbank.org/content/dam/sites/govindicators/doc/wgidataset_excel.zip))
     - [Регионы](data/task_1/regions.xlsx)
 - [Описание WGI](http://info.worldbank.org/governance/wgi/)
 
@@ -75,7 +75,7 @@ print("задача № 2 - вариант: ", variant % 4 + 1)
 
 1. Есть набор файлов, каждый из которых содержит данные по одной из акций. Все файлы имеют одинаковую структуру, в том числе наименование столбцов. Загрузите данные в один dataframe. В качестве значений индекса dataframe'а необходимо указать значения столбца "Date". Название столбцов должные соответствовать названию акций (имя файла без .csv), а их значения - значениям цены закрытия (столбец "Close" в файлах .csv)
 
-    [Набор данных](/data/task_2)
+    [Набор данных](data/task_2)
 
     ⚠️ **Замечание.** Наборы данные были загружены с сайта https://finance.yahoo.com/
 
